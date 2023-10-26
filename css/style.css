@@ -14,6 +14,7 @@ html {
  max-width: 600px;
  margin: 0 auto;
  padding: 30px;
+ background-image: url("../images/money-1.jpg");
 } 
 .form__field { 
   border: 2px solid #d8c5c5;
