@@ -1,5 +1,5 @@
 # Currency Converter
-![okładka]
+![okładka](https://github.com/BarbaraMarcinkowska/currency-converter/blob/master/images/share.png?raw=true)
 # DEMO 
 https://barbaramarcinkowska.github.io/currency-converter/ 
 # Description 
