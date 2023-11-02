@@ -9,11 +9,11 @@ html {
   }
 .body {
  margin-left: 100px; 
- color: grey; 
+ color: rgb(34, 33, 33); 
  font-family: 'Lato', sans-serif;
  max-width: 600px;
  margin: 0 auto;
- padding: 30px;
+ padding: 30px; 
  background-image: url("../images/money-1.jpg");
 } 
 .form__field { 
@@ -64,4 +64,7 @@ html {
 .result { 
 border-bottom: solid 2px;
 color: rgb(80, 184, 20);
+}
+.foot {
+  color:black;
 }
