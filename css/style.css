@@ -45,17 +45,23 @@ html {
    margin-right: 5px;
 }
 .form__button {
-  width: 50%;
+  width: 40%;
   background-color: rgb(242 239 219); 
   border: solid rgb(80, 184, 20);
   color: black; 
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
-}
+  }
 .form__button--reset {
+  width: 40%;
+  background-color: rgb(242 239 219); 
+  border: solid rgb(80, 184, 20);
+  color: black; 
+  padding: 5px;
   border-radius: 10px;
-}
+  cursor: pointer;
+ }
 
 .container {
   margin: auto;
