@@ -27,11 +27,8 @@ const resultElement = document.querySelector (".js-result");
             return amount / GBP;   
     }
 };
-calculateResult (); 
 
-//const EURO = 4.46;
-//const USD = 4.07;
-//const GBP = 5.17;
+calculateResult(); 
 
 formElement.addEventListener ("submit" , (event) => { 
     event.preventDefault(); 
@@ -41,18 +38,6 @@ const currency = currencyElement.value;
 
 const result = calculateResult (amount, currency); 
 
-//switch (currency) { 
-   // case "EURO" :
-     //   result = amount / EURO; 
-       // break; 
-   // case "USD" :
-   //     result = amount / USD; 
-   //     break; 
-   // case "GBP" :
-    //    result = amount / GBP; 
-    //    break; 
-//}
 resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong> ${result.toFixed(2)} ${currency} </strong>`;
 }) 
-
 }
